@@ -1,0 +1,79 @@
+# ===========================
+#  PYTHON / FASTAPI PROJECT
+# ===========================
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environment
+venv/
+env/
+ENV/
+.venv/
+
+# FastAPI / Uvicorn logs
+*.log
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+coverage.xml
+*,cover
+.pytest_cache/
+.cache/
+
+# SQLAlchemy / SQLite files
+*.db
+*.sqlite
+*.sqlite3
+
+# IDE / Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# dotenv files (se você possuir variáveis sensíveis)
+.env
+.env.*
+
+
+# Jupyter Notebook checkpoints (caso use)
+.ipynb_checkpoints/
+
+# PyInstaller
+*.manifest
+*.spec
+
+# mypy 
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pydantic Cache
+.pydantic_cache/
